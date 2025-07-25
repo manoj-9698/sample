@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    
+    <style>
+        body {
+             
+             font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #83a4d4, #b6fbff);
+            display: flex;
+            justify-content: center;
+            background-size: cover;    
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        center {
+            margin-top: 100px;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #c82333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #a71d2a;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <a href="patient_list.php" class="patient"><button>Patient Registration</button></a><br>
+        <a href="donar_list.php" class="donar"><button>Donor Registration</button></a>
+    </center>
+</body>
+</html>
